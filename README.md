@@ -1,97 +1,113 @@
-# receitinhas_da_tia_ana
-<header>
-    <h1>🍰 Doces da Tia Ana</h1>
-    <p>Receitas profissionais para transformar a sua paixão por bolos em lucro.</p>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doces da Tia Ana</title>
 
-    <a href="https://wa.me/244924887853" class="btn">
-        📲 Comprar Agora pelo WhatsApp
-    </a>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1509440159596-0249088772ff');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ffcc70;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.item {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.item p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.whatsapp {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.whatsapp a {
+    background: green;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+<header>
+    <h1>Doces da Tia Ana 🍰</h1>
+    <p>Os melhores bolos caseiros de Luanda</p>
 </header>
 
-<section>
-    <h2 class="titulo">📖 Catálogos Disponíveis</h2>
+<section class="catalogo">
 
-    <div class="grid">
-
-        <div class="card">
-            <h3>Catálogo Básico</h3>
-            <p>10 receitas profissionais de bolos.</p>
-            <h2>5.000 Kz</h2>
-        </div>
-
-        <div class="card">
-            <h3>Catálogo Profissional</h3>
-            <p>20 receitas lucrativas para venda.</p>
-            <h2>10.000 Kz</h2>
-        </div>
-
-        <div class="card">
-            <h3>Catálogo Premium</h3>
-            <p>30 receitas + dicas de negócio.</p>
-            <h2>15.000 Kz</h2>
-        </div>
-
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587">
+        <p>Bolo de Chocolate</p>
     </div>
+
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307">
+        <p>Bolo de Morango</p>
+    </div>
+
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1562440499-64c9a111f713">
+        <p>Bolo de Baunilha</p>
+    </div>
+
 </section>
 
-<section>
-    <h2 class="titulo">⭐ O que os clientes dizem</h2>
+<div class="whatsapp">
+    <a href="https://wa.me/244924887853" target="_blank">
+        Pedir no WhatsApp 📲
+    </a>
+</div>
 
-    <div class="grid">
+</div>
 
-        <div class="card">
-            <p>"Receitas fáceis e deliciosas. Já comecei a vender bolos."</p>
-            <strong>Maria - Luanda</strong>
-        </div>
-
-        <div class="card">
-            <p>"Excelente investimento. Recuperei o valor rapidamente."</p>
-            <strong>João - Benguela</strong>
-        </div>
-
-        <div class="card">
-            <p>"As receitas são detalhadas e muito profissionais."</p>
-            <strong>Ana - Huambo</strong>
-        </div>
-
-    </div>
-</section>
-
-<section>
-    <h2 class="titulo">❓ Perguntas Frequentes</h2>
-
-    <div class="sobre">
-        <p><strong>Como recebo as receitas?</strong><br>
-        Receberá o catálogo digital após a confirmação do pagamento.</p>
-
-        <br>
-
-        <p><strong>Posso vender os bolos feitos com estas receitas?</strong><br>
-        Sim, todas as receitas foram pensadas para quem deseja ganhar dinheiro com confeitaria.</p>
-
-        <br>
-
-        <p><strong>Como faço o pagamento?</strong><br>
-        Entre em contacto pelo WhatsApp para receber as instruções.</p>
-    </div>
-</section>
-
-<section>
-    <h2 class="titulo">📲 Encomende Já</h2>
-
-    <div class="contato">
-        <p>Fale diretamente connosco pelo WhatsApp.</p>
-
-        <a class="whatsapp" href="https://wa.me/244924887853">
-            WhatsApp: 924 887 853
-        </a>
-    </div>
-</section>
-<a href="https://wa.me/244924887853"
-style="position:fixed;bottom:20px;right:20px;
-background:#25D366;color:white;
-padding:15px 18px;border-radius:50%;
-text-decoration:none;font-size:25px;
-box-shadow:0 4px 10px rgba(0,0,0,0.3);">
-📲
-</a>
+</body>
+</html>
